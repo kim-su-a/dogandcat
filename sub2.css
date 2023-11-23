@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{margin:0; padding:0;}/*여백 초기화*/
+ul{list-style:none;}/*블릿 초기화*/
+a{color:#000; text-decoration:none;}/*글자, 밑줄 초기화*/
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:16px;
+	line-height:24px;
+	color:#000;
+	text-align:center;
+}
+
+/*header*/
+header{
+	background:#f7d5c2;
+	height:160px;
+	top:0;
+	left:0;
+	z-index:999;
+	width:100%;
+}
+#top{
+	width:1320px;
+	height:44px;
+	margin:auto;
+}
+#top ul{
+	float:right;
+}
+#top ul li{
+	float:left;
+	padding:10px 0 10px 20px;
+}
+#top ul li a{
+	color:#999;
+}
+#top ul li a:hover{
+	color:#fff;
+}
+.nav{
+	width:1320px;
+	height:81px;
+	margin:auto;
+}
+.nav .main_logo{
+	margin:-47px auto;
+}
+.nav> li{
+	float:left;
+	font-size:22px;
+	font-weight:bold;
+	padding:28.5px 93px 28.5px 93px;
+}
+.nav> li> a{
+	color:#fff;
+	font-family: 'TmoneyRoundWindRegular';
+}
+.nav> li> a:hover{
+	color:#999;
+}
+
+/*main*/
+#main img{width:100%; display:block;}
+
+/*best*/
+#best{
+	background:#c5dfdf;
+	height:650px;
+}
+.best_in{
+	width:1320px;
+	margin:0 auto;
+	padding-bottom:50px;
+}
+
+
+h6{
+	font-family:'TmoneyRoundWindRegular';
+	font-size:33px;
+	color:#fd7373;
+	padding-top:60px;
+}
+#best li{
+	float:left;
+	width:394px;
+	height:394px;
+	position:relative;
+	overflow:hidden;
+}
+#best ul{
+	margin-top:80px;
+	height:400px;
+}
+#best li p{
+	font-size:20px;
+	padding-top:15px;
+}
+#best li:nth-child(2){margin:0 66px;}
+
+.best_nav li img{display:block;}
+
+.box{
+	text-align:center;
+	height:394px;
+	width:394px;
+	position:absolute;
+	top:0;
+	left:0;
+	color:rgba(255,255,255,0);
+	padding-top:185px;
+}
+.best_nav li:hover .box{
+	background:rgba(0,0,0,0.4);
+	color:rgba(255, 255, 255, 1);
+	transform:scale(1.2, 1.2);
+	transition:all 1s;
+}
+
+/*con*/
+#con{
+	width:1320px;
+	margin:80px auto;
+}
+#con li{
+	float:left;
+	width:263px;
+	height:263px;
+	margin-right:50px;
+}
+.big{
+	width:263px;
+	height:263px;
+	overflow:hidden;
+	border-radius:30px;
+}
+#con li img{
+	display:block;
+	transition:all 1s;
+}
+#con li:hover img{
+	transform:scale(1.1, 1.1);
+}
+#con ul{
+	margin:30px 59px 0 59px;
+	height:350px;
+}
+#con span{
+	color:#777;
+	font-weight:bold;
+}
+#con li p{
+	font-size:17px;
+	color:#555;
+	padding-top:8px;
+	line-height:25px;
+}
+
+#con li:nth-child(4){margin-right:0;}
+
+
+
+
+/*footer*/
+#footer{
+	background:#f7d5c2;
+}
+.footer_in{
+	width:1320px;
+	height:250px;
+	margin:auto;
+}
+.right{
+	float:right;
+	padding:30px 0 30px;
+}
+.right ul{
+	float:right;
+	width:80%;
+}
+.right li{
+	float:left;
+	color:#999;
+	padding:20px 5px 30px;
+}
+.right li:nth-child(7){
+	padding:20px 0 30px;
+}
+.right li a{
+	color:#999;
+}
+.right p{
+	text-align:right;
+	color:#999;
+	clear:both;
+	padding-bottom:20px;
+}
+h5{
+	float:left;
+	padding-top:55px;
+	padding-left:30px;
+}
+h5 img{
+	width:130px;
+}
+.right li a:hover{
+	color:#fff;
+}
+
+/*top버튼*/
+.button{position:fixed; bottom:50px; right:50px; z-index:99; display:none;}
+
+
+

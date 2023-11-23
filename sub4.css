@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{margin:0; padding:0;}/*여백 초기화*/
+ul{list-style:none;}/*블릿 초기화*/
+a{color:#000; text-decoration:none;}/*글자, 밑줄 초기화*/
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:16px;
+	line-height:24px;
+	color:#000;
+	text-align:center;
+	overflow-x:hidden;
+}
+
+/*header*/
+header{
+	background:#f7d5c2;
+	height:160px;
+	top:0;
+	left:0;
+	z-index:999;
+	width:100%;
+}
+#top{
+	width:1320px;
+	height:44px;
+	margin:auto;
+}
+#top ul{
+	float:right;
+}
+#top ul li{
+	float:left;
+	padding:10px 0 10px 20px;
+}
+#top ul li a{
+	color:#999;
+}
+#top ul li a:hover{
+	color:#fff;
+}
+.nav{
+	width:1320px;
+	height:81px;
+	margin:auto;
+}
+.nav .main_logo{
+	margin:-47px auto;
+}
+.nav> li{
+	float:left;
+	font-size:22px;
+	font-weight:bold;
+	padding:28.5px 93px 28.5px 93px;
+}
+.nav> li> a{
+	color:#fff;
+	font-family: 'TmoneyRoundWindRegular';
+}
+.nav> li> a:hover{
+	color:#999;
+}
+
+/*main*/
+#main img{width:100%; display:block;}
+
+/*con*/
+#con{
+	width:1320px;
+	height:2200px;
+	margin:100px auto;
+	position:relative;
+}
+.pho1{
+	z-index:1;
+	float:left;
+}
+.text1{
+	position:absolute;
+	top:100px;
+	right:50px;
+}
+.pho2{
+	position:absolute;
+	z-index:2;
+	top:450px;
+	right:-80px;
+}
+.text2{
+	position:absolute;
+	top:1500px;
+	right:90px;
+}
+.pho3{
+	position:absolute;
+	z-index:3;
+	left:-80px;
+	top:950px;
+}
+.text3{
+	position:absolute;
+	top:2000px;
+	left:300px;
+}
+.rotate{
+	animation:rotate 5s linear infinite;
+}
+@keyframes rotate{
+	0%{transform:rotate(0deg);}
+	25%{transform:rotate(3deg);}
+	50%{transform:rotate(0deg);}
+	75%{transform:rotate(-3deg);}
+	100%{transform:rotate(0deg);}	
+}
+.rotate1{
+	animation:rotate1 5s linear infinite;
+}
+@keyframes rotate1{
+	0%{transform:rotate(0deg);}
+	25%{transform:rotate(-3deg);}
+	50%{transform:rotate(0deg);}
+	75%{transform:rotate(3deg);}
+	100%{transform:rotate(0deg);}	
+}
+
+/*footer*/
+#footer{
+	background:#f7d5c2;
+}
+.footer_in{
+	width:1320px;
+	height:250px;
+	margin:auto;
+}
+.right{
+	float:right;
+	padding:30px 0 30px;
+}
+.right ul{
+	float:right;
+	width:80%;
+}
+.right li{
+	float:left;
+	color:#999;
+	padding:20px 5px 30px;
+}
+.right li:nth-child(7){
+	padding:20px 0 30px;
+}
+.right li a{
+	color:#999;
+}
+.right p{
+	text-align:right;
+	color:#999;
+	clear:both;
+	padding-bottom:20px;
+}
+h5{
+	float:left;
+	padding-top:55px;
+	padding-left:30px;
+}
+h5 img{
+	width:130px;
+}
+.right li a:hover{
+	color:#fff;
+}
+
+/*top버튼*/
+.button{position:fixed; bottom:50px; right:50px; z-index:99; display:none;}
+
+
+
+
+
+
+
+
+
