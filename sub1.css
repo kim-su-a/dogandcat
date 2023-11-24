@@ -117,10 +117,10 @@ h6{
 /*footer*/
 #footer{
 	background:#f7d5c2;
+	height:250px;
 }
 .footer_in{
 	width:1320px;
-	height:250px;
 	margin:auto;
 }
 .right{
