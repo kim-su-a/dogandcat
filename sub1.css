@@ -17,6 +17,10 @@ body{
 	text-align:center;
 }
 
+#wrap{
+    min-width: 1320px;
+}
+
 /*header*/
 header{
 	background:#f7d5c2;
