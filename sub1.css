@@ -29,7 +29,7 @@ header{
 #top{
 	width:1320px;
 	height:44px;
-	margin:auto;
+	margin:0 auto;
 }
 #top ul{
 	float:right;
@@ -47,7 +47,7 @@ header{
 .nav{
 	width:1320px;
 	height:81px;
-	margin:auto;
+	margin:0 auto;
 }
 .nav .main_logo{
 	margin:-47px auto;
@@ -67,7 +67,12 @@ header{
 }
 
 /*main*/
-#main img{width:100%; display:block;}
+#main{
+	background-image: url(sub/sub1/sub1_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 501px;
+}
 
 /*con*/
 #con{
@@ -117,7 +122,7 @@ h6{
 .footer_in{
 	width:1320px;
 	height:250px;
-	margin:auto;
+	margin:0 auto;
 }
 .right{
 	float:right;
@@ -155,6 +160,7 @@ h5 img{
 .right li a:hover{
 	color:#fff;
 }
+
 
 /*top버튼*/
 .button{position:fixed; bottom:50px; right:50px; z-index:99; display:none;}
