@@ -18,6 +18,10 @@ body{
 	overflow-x:hidden;
 }
 
+#wrap{
+    min-width: 1320px;
+}
+
 /*header*/
 header{
 	background:#f7d5c2;
@@ -132,10 +136,10 @@ header{
 /*footer*/
 #footer{
 	background:#f7d5c2;
+	height:250px;
 }
 .footer_in{
 	width:1320px;
-	height:250px;
 	margin:auto;
 }
 .right{
@@ -144,7 +148,6 @@ header{
 }
 .right ul{
 	float:right;
-	width:80%;
 }
 .right li{
 	float:left;
