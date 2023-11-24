@@ -126,6 +126,7 @@ h6{
 .right{
 	float:right;
 	padding:30px 30px 30px;
+	box-sizing: border-box;
 }
 .right ul{
 	float:right;
