@@ -123,25 +123,25 @@ h6{
 	width:1320px;
 	margin:auto;
 }
-.right{
+.right1{
 	float:right;
 	padding:30px 0 30px;
 }
-.right ul{
+.right1 ul{
 	float:right;
 }
-.right li{
+.right1 li{
 	float:left;
 	color:#999;
 	padding:20px 5px 30px;
 }
-.right li:nth-child(7){
+.right1 li:nth-child(7){
 	padding:20px 0 30px;
 }
-.right li a{
+.right1 li a{
 	color:#999;
 }
-.right p{
+.right1 p{
 	text-align:right;
 	color:#999;
 	clear:both;
@@ -155,9 +155,10 @@ h5{
 h5 img{
 	width:130px;
 }
-.right li a:hover{
+.right1 li a:hover{
 	color:#fff;
 }
+
 
 /*top버튼*/
 .button{position:fixed; bottom:50px; right:50px; z-index:99; display:none;}
