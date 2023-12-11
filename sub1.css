@@ -17,10 +17,6 @@ body{
 	text-align:center;
 }
 
-#wrap{
-    min-width: 1320px;
-}
-
 /*header*/
 header{
 	background:#f7d5c2;
@@ -117,31 +113,32 @@ h6{
 /*footer*/
 #footer{
 	background:#f7d5c2;
-	height:250px;
 }
 .footer_in{
 	width:1320px;
+	height:250px;
 	margin:auto;
 }
-.right1{
+.right{
 	float:right;
 	padding:30px 0 30px;
 }
-.right1 ul{
+.right ul{
 	float:right;
+	width:80%;
 }
-.right1 li{
+.right li{
 	float:left;
 	color:#999;
 	padding:20px 5px 30px;
 }
-.right1 li:nth-child(7){
+.right li:nth-child(7){
 	padding:20px 0 30px;
 }
-.right1 li a{
+.right li a{
 	color:#999;
 }
-.right1 p{
+.right p{
 	text-align:right;
 	color:#999;
 	clear:both;
@@ -155,10 +152,9 @@ h5{
 h5 img{
 	width:130px;
 }
-.right1 li a:hover{
+.right li a:hover{
 	color:#fff;
 }
-
 
 /*top버튼*/
 .button{position:fixed; bottom:50px; right:50px; z-index:99; display:none;}

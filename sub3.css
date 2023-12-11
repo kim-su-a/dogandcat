@@ -17,10 +17,6 @@ body{
 	text-align:center;
 }
 
-#wrap{
-    min-width: 1320px;
-}
-
 /*header*/
 header{
 	background:#f7d5c2;
@@ -178,10 +174,10 @@ h1{
 /*footer*/
 #footer{
 	background:#f7d5c2;
-	height:250px;
 }
 .footer_in{
 	width:1320px;
+	height:250px;
 	margin:auto;
 }
 .right1{
@@ -190,6 +186,7 @@ h1{
 }
 .right1 ul{
 	float:right;
+	width:80%;
 }
 .right1 li{
 	float:left;
