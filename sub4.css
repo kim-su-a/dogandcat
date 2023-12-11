@@ -18,6 +18,10 @@ body{
 	overflow-x:hidden;
 }
 
+#wrap{
+    min-width: 1320px;
+}
+
 /*header*/
 header{
 	background:#f7d5c2;
@@ -73,13 +77,15 @@ header{
 /*con*/
 #con{
 	width:1320px;
-	height:2200px;
+	height:2100px;
 	margin:100px auto;
 	position:relative;
 }
 .pho1{
 	z-index:1;
-	float:left;
+	position:absolute;
+	top:30px;
+	left:20px;
 }
 .text1{
 	position:absolute;
@@ -90,22 +96,22 @@ header{
 	position:absolute;
 	z-index:2;
 	top:450px;
-	right:-80px;
+	right:12px;
 }
 .text2{
 	position:absolute;
-	top:1500px;
+	top:1400px;
 	right:90px;
 }
 .pho3{
 	position:absolute;
 	z-index:3;
-	left:-80px;
+	left:12px;
 	top:950px;
 }
 .text3{
 	position:absolute;
-	top:2000px;
+	top:1940px;
 	left:300px;
 }
 .rotate{
@@ -132,10 +138,10 @@ header{
 /*footer*/
 #footer{
 	background:#f7d5c2;
+	height:250px;
 }
 .footer_in{
 	width:1320px;
-	height:250px;
 	margin:auto;
 }
 .right{
@@ -144,7 +150,6 @@ header{
 }
 .right ul{
 	float:right;
-	width:80%;
 }
 .right li{
 	float:left;
